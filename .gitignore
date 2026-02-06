@@ -1,5 +1,6 @@
-#============
-# IGNORE git 
+#==================
+# IGNORE git files 
 #============
 
 .git
+git
