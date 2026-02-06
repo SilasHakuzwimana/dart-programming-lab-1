@@ -17,7 +17,7 @@ Future<void> main() async {
   createTeacher("Dr. Ange", subject: "Microprocessor");
   createTeacher("Dr. Alexandre");
 
-  print("\n=== Part 2 & 3: Classes and Inheritance ===");
+  print("\n=== Part 2 & 3: Classes and Inheritance ===\n");
   final s1 = Student("Emmanuel", 20);
   print("Student Name: ${s1.name}, Age: ${s1.age}");
   s1.introduce();
@@ -28,7 +28,7 @@ Future<void> main() async {
   s1.markAttendance();
   print("Attendance of ${s1.name}: ${s1.attendance}");
 
-  print("\n=== Part 6: Collections ===\n");
+  print("\n=== Part 6: Collections ===\n\n");
   final studentList = <Student>[
     Student("NDAYISABA", 20),
     Student("Hakuzwimana", 22),
@@ -36,9 +36,9 @@ Future<void> main() async {
   ];
 
   final studentMap = <String, Student>{
-    "S001": studentList[0],
-    "S002": studentList[1],
-    "S003": studentList[2],
+    "222078370": studentList[0],
+    "223004000": studentList[1],
+    "224005618": studentList[2],
   };
 
   print("List of Students:");
