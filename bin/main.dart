@@ -5,7 +5,6 @@ import '../lib/teacher.dart';
 import '../lib/welcome_message.dart';
 import '../lib/student_loader.dart';
 
-
 Future<void> main() async {
   print("\n=== Part 1: Functions ===\n");
 
@@ -13,7 +12,7 @@ Future<void> main() async {
   welcomeMessage();
 
   print("\nCreating students and teachers:\n");
-  createStudent(name: "Salomo", age: 23);
+  createStudent(name: "Claver", age: 23);
   createTeacher("Dr. Ange", subject: "Microprocessor");
   createTeacher("Dr. Alexandre");
 
